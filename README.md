@@ -1,16 +1,22 @@
-Functional Requirements
+# Instructions to Run the App
 
-    Fetch Blog Data:
-        Use the JSONPlaceholder API to fetch a list of blog posts.
-        Display the blog titles and descriptions in a card format.
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/stackai.git
+    cd stackai
+    ```
 
-    Search Functionality:
-        Provide a search bar to filter blog posts by title.
-        The search should update dynamically as the user types (debouncing is optional but a plus).
-Category Filter (Optional for bonus points):
+2. **Install dependencies:**
+    ```sh
+    pnpm install
+    ```
 
-    Add a dropdown to filter blogs by user ID (userId from the API).
+3. **Start the application:**
+    ```sh
+    pnpm start
+    ```
 
-Responsive Design:
-
-    Ensure the layout adapts to different screen sizes (desktop, tablet, mobile).
+4. **Open your browser and navigate to:**
+    ```
+    http://localhost:3000
+    ```
