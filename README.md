@@ -13,7 +13,7 @@
 
 3. **Start the application:**
     ```sh
-    pnpm start
+    pnpm run dev
     ```
 
 4. **Open your browser and navigate to:**
