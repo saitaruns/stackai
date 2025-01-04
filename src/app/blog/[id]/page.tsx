@@ -17,15 +17,15 @@ const Blog = async ({
     const blog: Blog = await response.json();
 
     return (
-        <div className="min-h-screen py-2 space-y-6 px-2 w-full md:w-8/12 mx-auto mt-12">
+        <div className="min-h-screen py-2 space-y-6 px-2 w-full md:w-8/12 mx-auto mt-4 md:mt-12">
             <Image
                 src={`https://picsum.photos/seed/${blog.id}/1920/1080`}
                 alt="blog"
                 width={1920}
                 height={1080}
-                className="object-cover w-full h-96 rounded-md"
+                className="object-cover w-full h-44 md:h-96 rounded-md"
             />
-            <h1 className="text-5xl capitalize font-semibold text-start">{blog.title}</h1>
+            <h1 className="text-3xl md:text-5xl capitalize font-semibold text-start">{blog.title}</h1>
             <p className="text-lg text-start">
                 {blog.body}
                 <br />

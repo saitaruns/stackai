@@ -72,8 +72,8 @@ const BlogCards = ({ blogs }: {
 
     return (
         <div className='flex flex-col gap-4 px-2 md:w-10/12 mx-auto'>
-            <div className="space-y-4 mt-8">
-                <h1 className='text-4xl'>Blogs</h1>
+            <div className="space-y-4 mt-4 md:mt-8">
+                <h1 className='text-3xl md:text-4xl'>Blogs</h1>
                 <p className='md:w-8/12'>
                     Welcome to our blog section! Here you can find a variety of articles written by different users. Use the search bar and filters to find blogs that interest you.
                 </p>
